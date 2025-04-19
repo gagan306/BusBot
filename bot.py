@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import smtplib  # For sending email notifications
+import smtplib 
 from datetime import datetime
 
 # Function to send an email if buses are not available
